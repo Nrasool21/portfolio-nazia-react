@@ -41,3 +41,13 @@ body {
 .navbar-nav > li > a:hover{
   border-top: 3px solid var(--burnt-orange);
 }
+
+/*Header*/
+
+.header-wraper{
+  position: relative;
+  background: url(backgroundimg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
