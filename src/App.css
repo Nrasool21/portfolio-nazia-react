@@ -51,3 +51,29 @@ body {
   background-position: center;
   height: 90vh;
 }
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed" sans-serif;
+
+}
+
+.main-info h1{
+  color: var(--burnt-orange);
+  text-transform: uppercase;
+}
+
+/*text-typed*/
+.text-typed {
+  font-size: 2rem;
+  color: var(--pearl-white);
+}
