@@ -10,17 +10,26 @@ body {
   font-family: "Roboto Condensed" sans-serif;
 }
 
+/*nav {
+  z-index: index 2;
+} */
+
 /*Nav link*/
 .nav a.nav-link {
   font-weight: 500;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
+.logo{
+  width: 12.25rem;
+  border-radius: 75px;
+  
+}
 
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0% !important;
-  height: 6rem !important;
+  height: 13.5rem !important;
   color: var(--pearl-white) !important;
 }
 
@@ -46,7 +55,7 @@ body {
 
 .header-wraper{
   position: relative;
-  background: url(backgroundimg.jpg) no-repeat;
+  background: url(portfolio_img.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -58,22 +67,48 @@ body {
   top: 0;
   left: 0;
   right:0;
-  bottom: 0;
+  bottom:0;
+  
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items:center;
+  text-align:justify;
   font-family: "Roboto Condensed" sans-serif;
 
 }
 
+.main-info-header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align:justify;
+  font-family: "Roboto Condensed" sans-serif;
+}
+
 .main-info h1{
-  color: var(--burnt-orange);
+  color: var(--pearl-white);
+  text-transform: uppercase;
+}
+.main-info h3{
+  color: var(--pearl-white);
   text-transform: uppercase;
 }
 
 /*text-typed*/
 .text-typed {
   font-size: 2rem;
-  color: var(--pearl-white);
+  color: var(--burnt-orange);
+}
+
+/*particles*/
+.tsparticles-canvas-el{
+  position: absolute;
+  height:100vh;
+  width:100vw;
+  z-index: 1;
 }

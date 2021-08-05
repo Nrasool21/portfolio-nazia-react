@@ -17,6 +17,13 @@ const App = () => {
                 value_area: 900
               }
             },
+            shape: {
+              type: "square",
+              stroke: {
+                width: 6,
+                color: "#f9ab00"
+              }
+            }
           },
         }}
       />
