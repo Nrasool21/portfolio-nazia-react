@@ -14,22 +14,21 @@ body {
   z-index: index 2;
 } */
 
+.logo {
+  width: 14.25rem;
+}
+
 /*Nav link*/
-.nav a.nav-link {
-  font-weight: 500;
+nav a.nav-link {
+  font-size: 0.8rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
-}
-.logo{
-  width: 12.25rem;
-  border-radius: 75px;
-  
 }
 
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0% !important;
-  height: 13.5rem !important;
+  height: 6rem !important;
   color: var(--pearl-white) !important;
 }
 
@@ -38,6 +37,8 @@ body {
 }
 
 .navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
   color: var(--pearl-white) !important;
   border-top: 0.187rem solid var(--primary-dark);
 }
@@ -47,13 +48,13 @@ body {
   border-top: 3px solid var(--burnt-orange);
 }
 
-.navbar-nav > li > a:hover{
+.navbar-nav > li > a:hover {
   border-top: 3px solid var(--burnt-orange);
 }
 
 /*Header*/
 
-.header-wraper{
+.header-wraper {
   position: relative;
   background: url(portfolio_img.jpg) no-repeat;
   background-size: cover;
@@ -61,20 +62,19 @@ body {
   height: 90vh;
 }
 
-.main-info{
+.main-info {
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
-  right:0;
-  bottom:0;
-  
+  right: 0;
+  bottom: 0;
+
   flex-direction: column;
   justify-content: center;
-  align-items:center;
-  text-align:justify;
+  align-items: center;
+  text-align: justify;
   font-family: "Roboto Condensed" sans-serif;
-
 }
 
 .main-info-header {
@@ -82,19 +82,19 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  right:0;
+  right: 0;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
-  text-align:justify;
+  align-items: center;
+  text-align: justify;
   font-family: "Roboto Condensed" sans-serif;
 }
 
-.main-info h1{
+.main-info h1 {
   color: var(--pearl-white);
   text-transform: uppercase;
 }
-.main-info h3{
+.main-info h3 {
   color: var(--pearl-white);
   text-transform: uppercase;
 }
@@ -106,9 +106,9 @@ body {
 }
 
 /*particles*/
-.tsparticles-canvas-el{
+.tsparticles-canvas-el {
   position: absolute;
-  height:100vh;
-  width:100vw;
+  height: 100vh;
+  width: 100vw;
   z-index: 1;
 }
