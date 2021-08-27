@@ -11,8 +11,6 @@ const Navbar = () => {
           <img className="logo" src={logo} alt="logo.." />
         </a>
 
-        <h1>Nazia Rasool </h1>
-
         <button
           className="navbar-toggler"
           type="button"
@@ -29,12 +27,7 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link" href="#">
-                Home <span className="sr-only"></span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                About me
+                About me <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item">
@@ -45,6 +38,11 @@ const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link" href="#">
                 Contact
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Experience
               </a>
             </li>
           </ul>
