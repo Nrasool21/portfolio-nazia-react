@@ -268,8 +268,13 @@ experience {
   padding: 3rem 0;
 }
 
+.project-wrapper h1 {
+  color: var(--burnt-orange);
+}
+
 .project-img {
   width: 15rem;
+  height: 128px;
   border: 1px solid var(--burnt-orange);
   padding: 0 0.5rem;
 }
@@ -277,6 +282,7 @@ experience {
 .project-img-box {
   position: relative;
   margin: 1rem;
+  height: 150px;
 }
 
 .overflow {
@@ -290,7 +296,29 @@ experience {
   cursor: pointer;
 }
 
-.project-img-box:hover .overflow{
+.project-img-box:hover .overflow {
   opacity: 60%;
   transition: 0.3s ease-in-out;
+}
+
+/*--Pop up Box---*/
+
+.project-img-popupbox {
+  width: 45rem;
+  padding: 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--burnt-orange);
+}
+
+.hyper-link:hover {
+  color: var(--primary-hover-red);
+}
+
+@media (max-width 768px) {
+  .project-img-popupbox {
+    width: 100%;
+  }
 }
