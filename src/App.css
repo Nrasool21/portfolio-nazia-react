@@ -8,6 +8,8 @@
   --primary-hover-red: #f33501;
   --primary-grey: #ccd;
   --primary-dark-grey: #666666;
+  --primary-light-grey: ##d3d3d3;
+  --primary-black: #000000;
 }
 
 body {
@@ -258,4 +260,37 @@ experience {
     direction: ltr;
     width: 100%;
   }
+}
+
+/*-------projects---------*/
+.project-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.project-img {
+  width: 15rem;
+  border: 1px solid var(--burnt-orange);
+  padding: 0 0.5rem;
+}
+
+.project-img-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+}
+
+.project-img-box:hover .overflow{
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
 }
