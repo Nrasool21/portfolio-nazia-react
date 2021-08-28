@@ -6,6 +6,7 @@ import Header from "./components/header/Header";
 import AboutMe from "./components/aboutMe/AboutMe";
 import Experience from "./components/experience/Experience";
 import Project from "./components/projects/Project";
+import Contacts from "./components/contacts/Contacts";
 
 const App = () => {
   return (
@@ -34,8 +35,9 @@ const App = () => {
       <Navbar />
       <Header />
       <AboutMe />
-      <Experience/>
-      <Project/>
+      <Experience />
+      <Project />
+      <Contacts />
     </>
   );
 };

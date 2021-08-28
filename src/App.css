@@ -322,3 +322,60 @@ experience {
     width: 100%;
   }
 }
+
+/*------contacts---------*/
+
+.contacts {
+  background: var(--primary-dark-grey);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  padding: 1.3rem 0;
+  color: var(--burnt-orange);
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+}
+
+/*------contact Inputs---------*/
+
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid var(--burnt-orange);
+  border-radius: 0;
+  color: var(--pearl-white) !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1;
+  padding-left: 0;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+@media(max-width: 786px){
+  .contacts .container{
+    padding: 0 1rem;
+  }
+}
+
+
+.contacts textarea {
+  height: 12rem !important;
+}
+
+.contacts-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
