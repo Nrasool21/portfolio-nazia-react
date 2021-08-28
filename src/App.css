@@ -352,7 +352,7 @@ experience {
   border: 0;
   border-bottom: 2px solid var(--burnt-orange);
   border-radius: 0;
-  color: var(--pearl-white) !important;
+  color: var(--burnt-orange);
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1;
@@ -363,12 +363,11 @@ experience {
   padding: 4rem 0;
 }
 
-@media(max-width: 786px){
-  .contacts .container{
+@media (max-width: 786px) {
+  .contacts .container {
     padding: 0 1rem;
   }
 }
-
 
 .contacts textarea {
   height: 12rem !important;
