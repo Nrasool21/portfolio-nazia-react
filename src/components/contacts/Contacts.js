@@ -51,6 +51,7 @@ const Contacts = () => {
           Kindly fill out the form and describe your project idea. I will review
           and get back to you as soon as possible.
         </p>
+        <span className="success-message">{successMessage}</span>
       </div>
       <div className="container">
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -100,10 +101,10 @@ const Contacts = () => {
                   name="email"
                   {...register("email", {
                     required: "Please provide your email",
-                    //add pattern 
+                    //add pattern
                     //patter: {
-                       // value:,
-                       // message: "Invalid Email"
+                    // value:,
+                    // message: "Invalid Email"
                     //}
                   })}
                 />
@@ -118,13 +119,13 @@ const Contacts = () => {
                 placeholder="Subject"
                 name="subject"
                 {...register("subject", {
-                    required: "Oops you forgot to add the subject",
-                  })}
+                  required: "Oops you forgot to add the subject",
+                })}
               />
             </div>
             <span className="error-message">
-                {errors.subject && errors.subject.message}
-              </span>
+              {errors.subject && errors.subject.message}
+            </span>
             <div className="col-md-6 col-xs-12">
               <textarea
                 id="description"
@@ -133,8 +134,8 @@ const Contacts = () => {
                 placeholder="Hello there! Please describe your message here"
                 name="description"
                 {...register("description", {
-                    required: "kindly mention a short description",
-                  })}
+                  required: "kindly mention a short description",
+                })}
               ></textarea>
               <span className="error-message">
                 {errors.description && errors.description.message}

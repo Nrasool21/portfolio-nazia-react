@@ -10,6 +10,7 @@
   --primary-dark-grey: #666666;
   --primary-light-grey: ##d3d3d3;
   --primary-black: #000000;
+  --primary-green: #008000;
 }
 
 body {
@@ -131,14 +132,14 @@ nav a.nav-link {
   text-transform: uppercase;
   border-radius: 4px;
   padding: 16px, 18px, 18px, 18px;
-  color: var(--pearl-white);
+  color: var(--primary-red);
   margin: 2rem;
 }
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
-  color: var(--pearl-white);
+  background-color: var(--pearl-white);
+  color: var(--primary-red);
   transition: 2s ease-in-out;
 }
 
@@ -352,7 +353,7 @@ experience {
   border: 0;
   border-bottom: 2px solid var(--burnt-orange);
   border-radius: 0;
-  color: var(--burnt-orange)!important;
+  color: var(--burnt-orange) !important;
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1;
@@ -377,4 +378,14 @@ experience {
   margin: 1rem 0 0 0;
   width: 100%;
   background: none;
+}
+
+.error-message {
+  text-align: left;
+  color: #fff;
+}
+
+.success-message {
+  font-weight: 900;
+  color: (--primary-green);
 }
