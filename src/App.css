@@ -352,7 +352,7 @@ experience {
   border: 0;
   border-bottom: 2px solid var(--burnt-orange);
   border-radius: 0;
-  color: var(--burnt-orange);
+  color: var(--burnt-orange)!important;
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1;
