@@ -7,11 +7,11 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
-        <Link className="navbar-brand" href="foo">
+        <a className="navbar-brand" href="foo">
           <img className="logo" src={logo} alt="logo.." />
-        </Link>
+        </a>
 
         <button
           className="navbar-toggler"
@@ -26,7 +26,7 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item active" aria-current="page">
               <Link
                 smooth={true}
