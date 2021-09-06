@@ -17,10 +17,18 @@ const AboutMe = () => {
         <div className=".col-lg-6 col-xm-12 ">
           <h1 className="about-heading">About Me</h1>
           <p>
-            Welcome to my portfolio! My name is Nazia, an enthusiastic
-            indivisual who embarked on a challenging yet rewarding journey in
-            becoming a full-stack developer. My interests lie in solving
-            problems. I love structure and order and I also stand for quality.
+            Welcome to my portfolio! My name is Nazia, a dynamic and
+            enthusiastic individual who embarked on a new
+            professional journey of software engineering. Apart from acquiring
+            degrees in marketing and pre-medicine, I have earned a certificate
+            from University of Birmingham Coding Boot camp. Hence leveraging my
+            existing knowledge to provide unique perspective on how end-users
+            interact with software platforms. A full stack developer who has a
+            strong desire to showcase her creative, logical, and problem-solving
+            sides with a focus on design and development. Experienced in various
+            domains like Operations | Human Resource | Management and Customer
+            Service. My interests lie in solving problems. I love structure and
+            order and I also stand for quality.
           </p>
         </div>
       </div>
