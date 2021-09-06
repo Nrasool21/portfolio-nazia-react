@@ -7,6 +7,7 @@ import AboutMe from "./components/aboutMe/AboutMe";
 import Experience from "./components/experience/Experience";
 import Project from "./components/projects/Project";
 import Contacts from "./components/contacts/Contacts";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
       <Experience />
       <Project />
       <Contacts />
+      <Footer />
     </>
   );
 };

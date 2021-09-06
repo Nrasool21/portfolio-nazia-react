@@ -3,7 +3,7 @@
 :root {
   --pearl-white: #fff;
   --burnt-orange: #f9ab00;
-  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-dim-grey: #4a4a4a;
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-grey: #ccd;
@@ -125,23 +125,8 @@ nav a.nav-link {
   }
 }
 
-/*--------Header Button-----------*/
+/*--------Header -----------*/
 
-.btn-main-offer {
-  border: 1px solid var(--primary-red);
-  text-transform: uppercase;
-  border-radius: 4px;
-  padding: 16px, 18px, 18px, 18px;
-  color: var(--primary-red);
-  margin: 2rem;
-}
-
-.btn-main-offer:hover {
-  text-decoration: none;
-  background-color: var(--pearl-white);
-  color: var(--primary-red);
-  transition: 2s ease-in-out;
-}
 
 /*particles*/
 .tsparticles-canvas-el {
@@ -318,7 +303,7 @@ experience {
   color: var(--primary-hover-red);
 }
 
-@media (max-width 768px) {
+@media (max-width: 768px) {
   .project-img-popupbox {
     width: 100%;
   }
@@ -388,4 +373,25 @@ experience {
 .success-message {
   font-weight: 900;
   color: (--primary-green);
+}
+
+.footer {
+  background: var(--primary-dim-grey);
+  color: var(--primary-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--burnt-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
