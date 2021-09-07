@@ -127,7 +127,6 @@ nav a.nav-link {
 
 /*--------Header -----------*/
 
-
 /*particles*/
 .tsparticles-canvas-el {
   position: absolute;
@@ -394,4 +393,34 @@ experience {
 
 .footer p {
   margin-bottom: 0;
+}
+
+/*---------contact icon---*/
+
+.contact-icon {
+  display: inline;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.ul-contact-icon {
+  display: inline;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.ul-contact-icon li {
+  list-style-type: none;
+}
+
+.ul-contact-icon li a {
+  font-size: 32px;
+  margin: 0px, 60px;
+  padding-inline-end: 7px;
+}
+
+.ul-contact-icon li:hover {
+  background-color: var(--primary-dark-grey);
+  font-size: 15px;
 }
