@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="foo">
+        <a className="navbar-brand" href="home">
           <img className="logo" src={logo} alt="logo.." />
         </a>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
                 to="about"
                 offset={-110}
                 className="nav-link"
-                href="foo"
+                href="about"
               >
                 About me <span className="sr-only"></span>
               </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 to="projects"
                 offset={-110}
                 className="nav-link"
-                href="foo"
+                href="projects"
               >
                 Projects
               </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 to="experience"
                 offset={-110}
                 className="nav-link"
-                href="foo"
+                href="experience"
               >
                 Experience
               </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 to="contacts"
                 offset={-110}
                 className="nav-link"
-                href="foo"
+                href="contacts"
               >
                 Contact
               </Link>
