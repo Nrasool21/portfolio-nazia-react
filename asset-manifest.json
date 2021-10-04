@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio-nazia-react/static/css/main.e489c39e.chunk.css",
+    "main.js": "/portfolio-nazia-react/static/js/main.0cee5735.chunk.js",
+    "main.js.map": "/portfolio-nazia-react/static/js/main.0cee5735.chunk.js.map",
+    "runtime-main.js": "/portfolio-nazia-react/static/js/runtime-main.5bd1c693.js",
+    "runtime-main.js.map": "/portfolio-nazia-react/static/js/runtime-main.5bd1c693.js.map",
+    "static/css/2.fdbd23dc.chunk.css": "/portfolio-nazia-react/static/css/2.fdbd23dc.chunk.css",
+    "static/js/2.3dde0536.chunk.js": "/portfolio-nazia-react/static/js/2.3dde0536.chunk.js",
+    "static/js/2.3dde0536.chunk.js.map": "/portfolio-nazia-react/static/js/2.3dde0536.chunk.js.map",
+    "index.html": "/portfolio-nazia-react/index.html",
+    "static/css/2.fdbd23dc.chunk.css.map": "/portfolio-nazia-react/static/css/2.fdbd23dc.chunk.css.map",
+    "static/css/main.e489c39e.chunk.css.map": "/portfolio-nazia-react/static/css/main.e489c39e.chunk.css.map",
+    "static/js/2.3dde0536.chunk.js.LICENSE.txt": "/portfolio-nazia-react/static/js/2.3dde0536.chunk.js.LICENSE.txt",
+    "static/media/ecommerce.e495ef1a.png": "/portfolio-nazia-react/static/media/ecommerce.e495ef1a.png",
+    "static/media/geo-link.f200f8e7.png": "/portfolio-nazia-react/static/media/geo-link.f200f8e7.png",
+    "static/media/my-photo.296e15e3.png": "/portfolio-nazia-react/static/media/my-photo.296e15e3.png",
+    "static/media/placeholderImg.69535fcd.jpg": "/portfolio-nazia-react/static/media/placeholderImg.69535fcd.jpg",
+    "static/media/App.css": "/portfolio-nazia-react/static/media/portfolio_img.a39543a1.jpg",
+    "static/media/team_profile.3816212e.png": "/portfolio-nazia-react/static/media/team_profile.3816212e.png",
+    "static/media/tri-via-hub-1.8d1ce3da.png": "/portfolio-nazia-react/static/media/tri-via-hub-1.8d1ce3da.png",
+    "static/media/weatherDashboard.d28ebdcd.png": "/portfolio-nazia-react/static/media/weatherDashboard.d28ebdcd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bd1c693.js",
+    "static/css/2.fdbd23dc.chunk.css",
+    "static/js/2.3dde0536.chunk.js",
+    "static/css/main.e489c39e.chunk.css",
+    "static/js/main.0cee5735.chunk.js"
+  ]
+}
