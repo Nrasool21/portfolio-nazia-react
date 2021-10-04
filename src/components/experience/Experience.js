@@ -33,20 +33,17 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2012-2014</h3>
-            <p>
-              Worked in Emirates Airlines as Senior Material planner in Material
-              planning and Inventory control department.
-            </p>
+            <p>Worked for Diva Advertising Agency as Event Coordinator.</p>
           </div>
         </div>
         {/*--*/}
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2017-2020</h3>
+            <h3>2007-2008</h3>
             <p>
-              Worked for Emcredit (Emirates Credit Information Company) Dubai
-              from 2017-2020 as Human Resource Officer.
+              Worked for Emirates Airlines as Senior Material planner in
+              Material planning and Inventory control department.
             </p>
           </div>
         </div>
