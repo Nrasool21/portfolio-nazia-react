@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-nazia-react/static/css/main.e489c39e.chunk.css",
-    "main.js": "/portfolio-nazia-react/static/js/main.0cee5735.chunk.js",
-    "main.js.map": "/portfolio-nazia-react/static/js/main.0cee5735.chunk.js.map",
+    "main.js": "/portfolio-nazia-react/static/js/main.b64c23b4.chunk.js",
+    "main.js.map": "/portfolio-nazia-react/static/js/main.b64c23b4.chunk.js.map",
     "runtime-main.js": "/portfolio-nazia-react/static/js/runtime-main.5bd1c693.js",
     "runtime-main.js.map": "/portfolio-nazia-react/static/js/runtime-main.5bd1c693.js.map",
     "static/css/2.fdbd23dc.chunk.css": "/portfolio-nazia-react/static/css/2.fdbd23dc.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.fdbd23dc.chunk.css",
     "static/js/2.3dde0536.chunk.js",
     "static/css/main.e489c39e.chunk.css",
-    "static/js/main.0cee5735.chunk.js"
+    "static/js/main.b64c23b4.chunk.js"
   ]
 }
